@@ -6,12 +6,12 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
   return (
     <section id="home">
       <div className="hero-wrap">
-        <div className="hero-mask opacity-8 bg-dark" />
+        <div className="hero-mask opacity-1 bg-dark" />
 
         {/* ---------------image background------------------ */}
         <div
           className="hero-bg parallax"
-          style={{ backgroundImage: 'url("images/intro-bg.jpg")' }}
+          style={{ backgroundImage: 'url("images/main_bg.jpg")' }}
         ></div>
 
         {/* -------------------video background---------------------- */}
@@ -37,8 +37,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                       strings: [
                         "I'm Ryan Carroll.",
                         "I'm a Freelancer.",
-                        "I'm a Photographer.",
-                        "I love tech <3",
+                        "I love tech",
                       ],
                       autoStart: true,
                       loop: true,
@@ -50,7 +49,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                 </p>
                 <a
                   href="src/components/Home#contact"
-                  className="btn btn-outline-primary rounded-pill shadow-none smooth-scroll mt-2"
+                  className="btn btn-primary rounded-pill"
                   onClick={(e) => {
                     e.preventDefault();
                     handleNavClick("contact");

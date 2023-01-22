@@ -4,14 +4,26 @@ const Services = ({ classicHeader, darkTheme }) => {
   // services details
   const services = [
     {
-      name: "Graphic Design",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      icon: "fas fa-palette",
+      name: "Hardware/Software Support",
+      desc: "15 years professional experience in troubleshooting and repair of technical devices." +
+          " Click to see more info and get a free quote: Technical Support",
+      icon: "fa-sharp fa-solid fa-computer",
     },
     {
       name: "Web Design",
+      desc: "Creating personal portfolio websites to multi channel ecommerce applications.",
+      icon: "fa-solid fa-mobile-screen-button",
+    },
+    {
+      name: "Cloud Application Development",
       desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      icon: "fas fa-desktop",
+      icon: "fa-solid fa-server",
+    },
+    {
+      name: "Security Audits",
+      desc: "Personal training in best security practices, system hardening /" +
+          "prevention unauthorized access and loss of sensitive data.",
+      icon: "fa-solid fa-user-shield",
     },
     {
       name: "UI/UX Design",
@@ -25,13 +37,13 @@ const Services = ({ classicHeader, darkTheme }) => {
     },
     {
       name: "Business Analysis",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      desc: "",
       icon: "fas fa-chart-area",
     },
     {
-      name: "SEO Marketing",
+      name: "Graphic Design",
       desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      icon: "fas fa-bullhorn",
+      icon: "fas fa-palette",
     },
   ];
 
